@@ -1,0 +1,332 @@
+.headerBody {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.headerBodyBg {
+    width: 100%;
+}
+.headerTextField {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+}
+.headerTitle {
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 4px;
+    color: white;
+}
+.headerText {
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem !important;
+}
+.headerBtn {
+    background-color: #DAA49A;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px;
+    width: 120px;
+    height: 45px;
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.headerSlider {
+    width: 1px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 41%;
+    right: 17px;
+    text-align: center;
+}
+.sliderItem {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.sliderItemActive {
+    font-size: 12px;
+    color: rgb(163, 161, 161);
+    font-weight: 500;
+    cursor: pointer;
+}
+.headerSliderImg {
+    width: 1px;
+    height: 20px;
+}
+.headerFooter {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    position: absolute;
+    bottom: -138px;
+    right: 14%;
+    left: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headerFooterTitle {
+    font-size: 27px;
+    font-weight: 700;
+    color: #373F51;
+    letter-spacing: 1px;
+}
+.headerFooterText {
+    font-size: 14px;
+    margin-top: 8px;
+}
+.headerToolBar {
+    width: 95%;
+    height: 50px;
+    border-radius: 35px;
+    border: 1px solid rgba(169, 188, 208, 0.3);
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cityInputField {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    padding: 0 20px;
+}
+.cityInput {
+    outline: none;
+    border: none;
+    height: 40px;
+    font-size: 14px;
+    width: 73%;
+}
+.cityInputIcon {
+    width: 15px
+}
+.borderVertical {
+    border-right: 1px solid rgba(169, 188, 208, 0.3);
+    height: 50px;
+    width: 1px;
+}
+.selectField {
+    width: 200px;
+    padding: 0 20px;
+}
+.select {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    color: #7a7a7a;
+}
+.searchBarField {
+    width: 60%;
+    padding: 0 0 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchBar {
+    width: 74%;
+    margin-bottom: 0!important;
+    display: flex;
+    align-items: center;
+}
+.searchBarInput {
+    outline: none;
+    border: none;
+    height: 38px;
+    font-size: 14px;
+    width: 99%;
+}
+.searchBtn {
+    background-color: #DAA49A;
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+.responsiveHeaderToolBar {
+    display: none;
+}
+.cityTool {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(169, 188, 208, 0.3);
+    margin-bottom: 5px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cityInput1 {
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+}
+.header .city-tool select {
+    font-size: 12px!important;
+    color: #8a8a8a;
+    border: none;
+    outline: none;
+}
+.responsive1HeaderToolBar {
+    display: none;
+    margin-top: 20px;
+    padding: 0 12%;
+}
+.searchTool {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(169, 188, 208, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.responsiveSearchBar {
+    width: 100%;
+    padding: 0 0 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1086px) {
+    .headerTitle {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .headerFooter {
+        bottom: -160px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .headerTitle {
+        font-size: 45px;
+    }
+    .headerBtn {
+        width: 110px;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 846px) {
+    .headerTitle {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 830px) {
+    .headerFooter {
+        position: unset!important;
+        text-align: center;
+    }
+    .americanExpress {
+        margin-top: 20px;
+    }
+    .headerSlider {
+        top: 30%;
+    }
+}
+@media screen and (max-width: 766px) {
+    .headerTitle {
+        font-size: 30px;
+    }
+    .headerText {
+        color: white;
+        font-size: 15px;
+        margin-top: 1rem !important;
+    }
+    .headerFooterTitle {
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 624px) {
+    .headerToolBar {
+        display: none;
+    }
+    .responsiveHeaderToolBar {
+        display: block;
+        margin-top: 30px;
+    }
+    .cityInputField {
+        width: 50%;
+        padding: 0 10px;
+    }
+    .searchBtn {
+        height: 38px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 608px) {
+    .headerTitle {
+        font-size: 30px;
+    }
+    .headerText {
+        color: white;
+        font-size: 14px;
+        margin-top: 0.1rem !important;
+    }
+    .headerBtn {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .sliderItem {
+        font-size: 15px;
+    }
+    .headerBtn {
+        width: 100px;
+        height: 32px;
+    }
+    .headerTextField {
+        top: 16%;
+    }
+}
+@media screen and (max-width: 482px) {
+    .headerText {
+        display: none;
+    }
+    .headerSlider {
+        top: 22%;
+    }
+}
+@media screen and (max-width: 406px) {
+    .headerTitle {
+        font-size: 25px;
+    }
+    .headerBodyBg {
+        height: 220px;
+    }
+    .headerSlider {
+        top: 23%;
+    }
+    .searchBtn {
+        width: 60px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,193 @@
+.eventsBody {
+    margin-top: 80px;
+    padding: 0 12%;
+}
+.concertsHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.concertsTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+}
+.concertsTitleH4 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.concertsTitleSpan {
+    font-size: 15px;
+    font-weight: 500;
+    color: #58A4B0;
+    margin-left: 5px;
+    letter-spacing: 0.8px;
+}
+.dFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select {
+    background: none;
+    outline: none;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 5px;
+    width: 160px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+.rightBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    width: 140px;
+    height: 27px;
+}
+.listings {
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #58A4B0;
+    width: 50%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+.listingsText {
+    font-size: 12px;
+    margin-left: 3px;
+    color: white;
+}
+.calendar {
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.calendarText {
+    font-size: 12px;
+    margin-left: 3px;
+}
+.allConcertsbody {
+    margin-top: 25px;
+}
+.allConcertsTitle {
+    font-size: 14.5px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.concertsItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #e2e0e0;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.titleField {
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+.city {
+    width: 33%;
+}
+.ml1 {
+    margin-left: 10px;
+}
+.concertTitle {
+    font-size: 14px;
+    color: #DAA49A;
+    margin-bottom: 0;
+}
+.concertTime {
+    font-size: 10px;
+    color: #A9BCD0;
+}
+.concertText {
+    font-size: 14px;
+}
+.concertComment {
+    color: #A9BCD0;
+    font-size: 12px;
+}
+.seeTickets {
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.seeTicketsBtn {
+    border: none;
+    width: 70px;
+    padding: 4px 5px;
+    border-radius: 3px;
+    outline: none;
+    background: #DAA49A;
+    color: white;
+    font-size: 12px;
+}
+.loadMore {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 30px 0;
+}
+.loadMoreBtn {
+    width: 140px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #DAA49A;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid #DAA49A;
+    background-color: white;
+}
+
+@media screen and (max-width: 990px) {
+    .eventsBody {
+        margin-top: 30px;
+        padding: 0 12%;
+    }
+}
+@media screen and (max-width: 773px) {
+    .concertsTitle {
+        margin-bottom: 10px;
+    }
+    .concertsHeader {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 420px) {
+    .eventsBody {
+        margin-top: 30px;
+        padding: 0 2%;
+    }
+    .loadMoreBtn {
+        width: 100px;
+        padding: 5px;
+        border-radius: 5px;
+        color: #DAA49A;
+        font-size: 13px;
+        font-weight: 500;
+        border: 1px solid #DAA49A;
+        background-color: white;
+    }
+    .allConcertsTitle {
+        margin-left: 10px;
+    }
+}

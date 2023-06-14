@@ -1,0 +1,121 @@
+.container {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  
+  .slider {
+    position: relative;
+    width: 170px;
+  }
+  
+  .slider__track,
+  .slider__range,
+  .slider__leftValue,
+  .slider__rightValue {
+    position: absolute;
+  }
+  .rightValue {
+    position: absolute;
+    top: -10px;
+    right: -70px;
+    border: 1px solid #58A4B0;
+    padding: 5px 10px;
+  }
+  .leftValue {
+    position: absolute;
+    top: -10px;
+    left: -70px;
+    border: 1px solid #58A4B0;
+    padding: 5px 10px;
+  }
+  
+  .slider__track,
+  .slider__range {
+    border-radius: 3px;
+    height: 5px;
+  }
+  
+  .slider__track {
+    background-color: #ced4da;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .slider__range {
+    background-color: #9fe5e1;
+    z-index: 2;
+  }
+  
+  .slider__left-value,
+  .slider__right-value {
+    color: #dee2e6;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  
+  .slider__left-value {
+    left: 6px;
+  }
+  
+  .slider__right-value {
+    right: -4px;
+  }
+  
+  /* Removing the default appearance */
+  .thumb,
+  .thumb::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .thumb {
+    pointer-events: none;
+    position: absolute;
+    height: 0;
+    width: 170px;
+    outline: none;
+  }
+  
+  .thumbZindex3 {
+    z-index: 3;
+  }
+  
+  .thumbZindex4 {
+    z-index: 4;
+  }
+  
+  .thumbZindex5 {
+    z-index: 5;
+  }
+  
+  /* For Chrome browsers */
+  .thumb::-webkit-slider-thumb {
+    background-color: #f1f5f7;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px #ced4da;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    margin-top: 4px;
+    pointer-events: all;
+    position: relative;
+  }
+  
+  /* For Firefox browsers */
+  .thumb::-moz-range-thumb {
+    background-color: #f1f5f7;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px #ced4da;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    margin-top: 4px;
+    pointer-events: all;
+    position: relative;
+  }
+  

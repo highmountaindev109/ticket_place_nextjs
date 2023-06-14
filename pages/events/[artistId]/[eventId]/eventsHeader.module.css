@@ -1,0 +1,133 @@
+.eventsHeader {
+    
+}
+.dFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerBody {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.headerBodyImg {
+    width: 100%;
+}
+.headerTextField {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 37%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+}
+.headerTitle {
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: 4px;
+    color: white;
+}
+.mt1 {
+    margin-top: 0.25rem !important;
+}
+.headerText {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 0 !important;
+}
+.headerStar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.starImg {
+    width: 10px;
+}
+.starText {
+    font-size: 10px;
+    color: white;
+}
+.headerBottom {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -35px;
+    width: 100%;
+}
+.headerBottomBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    width: 50%;
+    height: 70px;
+    border-radius: 15px;
+    padding: 15px 50px;
+}
+.cursorPointer {
+    cursor: pointer;
+}
+.headerBottomText {
+    font-size: 16px;
+    font-weight: 600;
+}
+.skyColor {
+    color: #58A4B0;
+}
+.borderBottom {
+    border-bottom: 2px solid #58A4B0!important;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 990px) {
+    .headerBottom {
+        position:unset;
+    }
+    .headerBodyBg {
+        height: 300px;
+    }
+    .borderBottom {
+        border-bottom: 2px solid #58A4B0!important;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 785px) {
+    .headerBottomBody {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .headerTextField {
+        position: absolute;
+        top: 27%;
+    }
+    .headerTitle {
+        font-size: 35px;
+    }
+    .headerText {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .headerBottomBody {
+        width: 100%;
+    }
+    .skyColor {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .headerBottomText {
+        font-size: 13px;
+        font-weight: 600;
+    }
+}

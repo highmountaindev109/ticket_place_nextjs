@@ -1,0 +1,113 @@
+.browseCategory {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 14%;
+}
+.titleField {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #373F51;
+}
+.borderHor {
+    border-bottom: 2px solid #373F51;
+    width: 70px;
+    height: 17px;
+    margin-left: 15px;
+}
+.cardsBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+}
+.cards {
+    width: 24%!important;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    box-shadow: 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5;
+    margin: auto!important;
+    margin-bottom: 10px!important;
+    margin-top: 10px!important;
+    border-radius: 3px!important;
+}
+.relative {
+    position: relative;
+}
+.cardImg {
+    width: 100%;
+}
+.ItemPosition {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: -20px;
+    text-align: center;
+}
+.concertsItem {
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 3px;
+    border-radius: 7px;
+    color: #58A4B0;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 0px 0px 0 #e5e5e5, 0 -1px 0px 0 #e5e5e5, 0 0px 0px 0 #e5e5e5, 0 1px 10px 0 #e5e5e5
+}
+.ItemImg {
+    width: 30px;
+    margin-right: 7px;
+}
+
+@media screen and (max-width:1130px) {
+    .cards {
+        width: 46%!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+        margin-top: 20px!important;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .cards {
+        margin: 15px 0;
+    }
+}
+@media screen and (max-width: 660px) {
+    .concertsItem {
+        width: 120px;
+        height: 34px;
+    }
+}
+@media screen and (max-width:550px) {
+    .borderHor {
+        display: none;
+    }
+    .cards {
+        width: 90%!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .concertsItem {
+        width: 160px;
+        height: 40px;
+    }
+}

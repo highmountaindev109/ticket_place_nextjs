@@ -1,0 +1,178 @@
+.americanExpress {
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 14%;
+}
+.dFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.americanExpressTitle {
+    font-size: 25px;
+    font-weight: 700;
+    color: #373F51;
+}
+.borderHor {
+    border-bottom: 2px solid #373F51;
+    width: 70px;
+    height: 17px;
+    margin-left: 15px;
+}
+.americanExpressText {
+    color: #373F51;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.americanExpressBtn {
+    color: #58A4B0;
+    border: 1px solid #58A4B0;
+    padding: 5px;
+    width: 100px;
+    height: 38px;
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: 500;
+    background: none;
+}
+.cardsBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.cards {
+    width: 24%!important;
+    height: 285px;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    box-shadow: 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5;
+    margin: 10px 0;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.relative {
+    position: relative;
+}
+.cardImg {
+    width: 100%;
+}
+.cardPresale {
+    position: absolute;
+    bottom: 7px;
+    left: 7px;
+    background: #58A4B0;
+    padding: 3px;
+    border-radius: 3px;
+    color: white;
+    font-size: 13px;
+}
+.cardTextField {
+    padding: 10px 20px;
+}
+.cardTime {
+    font-size: 15px;
+    color: #DAA49A;
+}
+.cardTitle {
+    font-size: 14px;
+    color: rgb(46, 46, 45);
+}
+.cardComment {
+    font-size: 13px;
+    color: #A9BCD0;
+}
+.cardLearnMore {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.leardMore {
+    width: 90px;
+    color: #58A4B0;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background: none;
+}
+.mT1 {
+    font-size: 13px!important;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:1130px) {
+    .cards {
+    /* .col-md-3 { */
+        width: 46%!important;
+        height: 330px;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+}
+@media screen and (max-width: 830px) {
+    .americanExpress {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 880px) {
+    .cards {
+        height: 280px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .cards {
+        height: 260px;
+    }
+    .americanExpressTitle {
+        font-size: 20px;
+    }
+    .americanExpressBtn {
+        padding: 3px;
+        width: 70px;
+        height: 27px;
+    }
+}
+@media screen and (max-width:600px) {
+    .borderHor {
+        display: none;
+    }
+}
+@media screen and (max-width:550px) {
+    .cards {
+        width: 90%!important;
+        height: 325px;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+        box-shadow: 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5, 0 3px 5px 0 #E5E5E5;
+        border-radius: 4px;
+        overflow: hidden;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .americanExpressTitle {
+        font-size: 18px;
+    }
+    .cards {
+        height: 300px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .americanExpressTitle {
+        font-size: 17px;
+    }
+    .cards {
+        height: 270px;
+    }
+}

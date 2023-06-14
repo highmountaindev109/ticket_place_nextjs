@@ -1,0 +1,47 @@
+.title {
+  background: #58a4b0;
+  color: white;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  margin: 0;
+}
+
+.title h2 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  position: absolute;
+  width: 760px;
+  height: 70px;
+  left: auto;
+  top: 366px;
+
+  background: #f4faff;
+  color: #373f51;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+
+  border: 10px solid #ffffff;
+  border-radius: 10px;
+}

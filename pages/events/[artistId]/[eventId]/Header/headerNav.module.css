@@ -1,0 +1,149 @@
+.headerToolScroll {
+    background: #13605c;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 40px 10px;
+    z-index: 1000;
+}
+.headerTool {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 40px 10px;
+    z-index: 1000;
+}
+.headerToolResponsive {
+    display: none;
+}
+.navToolbarLink {
+    font-size: 16px;
+    font-weight: 400;
+    color: white!important;
+    margin: 0 7px!important;
+}
+.navbarLogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navbarLogoImg {
+    width: 250px;
+}
+.navbarSearch {
+    background-image: url("/images/Events/Rectangle 44.png");
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    width: 40%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 0!important;
+}
+.navbarSearchIcon {
+    font-size: 15px;
+    color: white;
+}
+.navbarSearchInput {
+    background: none;
+    border: none;
+    outline: none;
+    height: 43px;
+    width: 100%;
+    margin-left: 5px;
+    font-size: 12px;
+    color: white;
+}
+.navbarSearchInput::placeholder {
+    color: white;
+    font-size: 14px;
+    opacity: 1;
+  }
+.navToolbarLink {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin: 0 7px;
+}
+.headerToolResponsiveScroll {
+    display: none;
+}
+.navResponsiveToolbarLink {
+    font-size: 14px;
+    color: white;
+    margin: 0 7px;
+}
+.navbarSignInResponsive {
+    display: none;
+}
+
+@media screen and (max-width: 1160px) {
+    .headerToolResponsiveScroll {
+        display: block;
+        display: none;
+        background: #42a299;
+        opacity: 0.7;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 30px;
+        padding: 30px 7px;
+        z-index: 1000;
+    }
+    .headerToolResponsive {
+        opacity: 0.7;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        height: 30px;
+        padding: 30px 7px;
+        z-index: 1000;
+    }
+    .navResponsiveToolbarLink {
+        font-size: 14px;
+        color: white!important;
+        margin: 0 7px!important;
+    }
+    .headerTool {
+        display: none;
+    }
+    .headerToolScroll {
+        display: none;
+    }
+}
+@media screen and (max-width:630px) {
+    .headerToolResponsive {
+        background: none;
+        opacity: 0.7;
+        position: fixed;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        height: 25px;
+        padding: 25px 4px;
+        z-index: 1000;
+    }
+    .navbarLogoImg {
+        display: none;
+    }
+}

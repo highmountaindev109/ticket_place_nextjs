@@ -1,0 +1,9 @@
+.cont {
+  width: 100%;
+  padding: 5px;
+  background-color: aliceblue;
+  border: 1px solid blue;
+  margin: 2px;
+  display: flex;
+  gap: 20px;
+}

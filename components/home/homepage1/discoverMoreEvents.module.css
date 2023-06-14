@@ -1,0 +1,98 @@
+.topSelling {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 14%;
+}
+.borderHor {
+    border-bottom: 2px solid #373F51;
+    width: 70px;
+    height: 17px;
+    margin-left: 15px;
+}
+.dFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.concertsField {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 25px;
+    margin-bottom: -15px;
+    width: 100%;
+}
+.title {
+    font-weight: 700;
+    color: #373F51;
+    font-size: 25px;
+}
+.cardsBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+.cards {
+    width: 16%!important;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    height: 240px;
+    -webkit-box-shadow: 0 3px 5px 0 #e5e5e5, 0 3px 5px 0 #e5e5e5, 0 3px 5px 0 #e5e5e5, 0 3px 5px 0 #e5e5e5;
+    box-shadow: 0 3px 5px 0 #e5e5e5, 0 3px 5px 0 #e5e5e5, 0 3px 5px 0 #e5e5e5, 0 3px 5px 0 #e5e5e5;
+    margin: auto!important;
+    margin-bottom: 10px!important;
+    margin-top: 10px!important;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.relative {
+    position: relative;
+    padding: 6px;
+}
+.cardImg {
+    width: 100%;
+}
+.cardTextField {
+    padding: 10px 20px;
+}
+.cardTitle {
+    color: #373F51;
+    font-size: 15px;
+    font-weight: 700;
+}
+.cardText {
+    color: #A9BCD0;
+    font-size: 11px;
+}
+
+@media screen and (max-width: 1100px) {
+    .cards {
+        width: 30%!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+}
+@media screen and (max-width : 600px) {
+    .cards {
+        width: 45%!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+}
+@media screen and (max-width:550px) {
+    .cards {
+        width: 90%!important;
+        height: 300px!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+}
+@media screen and (max-width: 400px) {
+    .cards {
+        height: 270px!important;
+    }
+}

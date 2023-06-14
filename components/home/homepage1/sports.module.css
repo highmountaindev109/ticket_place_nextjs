@@ -1,0 +1,147 @@
+.sports {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 14%;
+    background-color: #E9F4FF;
+}
+.dFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.concertsField {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 25px;
+    margin-bottom: -15px;
+    width: 100%;
+}
+.title {
+    font-weight: 700;
+    color: #373F51;
+    font-size: 25px;
+}
+.seeAllBtn {
+    color: #58A4B0;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+.seeAllIcon {
+    width: 15px;
+    height: 11px;
+    margin-top: 3px;
+}
+.cardsBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+.cards {
+    -webkit-box-shadow: 0 3px 5px 0 #e5e5e5, 0 3px 5px 0 #e5e5e5, 0 3px 5px 0 #e5e5e5, 0 3px 5px 0 #e5e5e5;
+    box-shadow: 0 3px 5px 0 #e5e5e5, 0 3px 5px 0 #e5e5e5, 0 3px 5px 0 #e5e5e5, 0 3px 5px 0 #e5e5e5;
+    margin: auto!important;
+    margin-bottom: 10px!important;
+    margin-top: 10px!important;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 24%!important;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    height: 285px;
+    background-color: white;
+}
+.relative {
+    position: relative;
+}
+.cardImg {
+    width: 100%;
+}
+.cardSelling {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 9.5px;
+    font-weight: 700;
+}
+.starImg {
+    width: 9px;
+    height: 9px;
+    margin-left: 0.8px;
+}
+.events {
+    color: #DAA49A;
+    font-weight: 600;
+    font-size: 10px;
+    background: white;
+    padding: 4px;
+    width: 65px;
+    height: 23px;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 5px;
+}
+.cardTextField {
+    padding: 10px 20px;
+    background-color: white;
+}
+.cardTitle {
+    color: #373F51;
+    font-size: 15px;
+    font-weight: 700;
+}
+.cardText {
+    color: #A9BCD0;
+    font-size: 11px;
+}
+@media screen and (max-width:1130px) {
+    .cards {
+        width: 46%!important;
+        height: 330px;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+}
+@media screen and (max-width: 960px) {
+    .cards {
+        height: 290px!important;
+    }
+}
+@media screen and (max-width: 730px) {
+    .cards {
+        height: 260px!important;
+    }
+}
+@media screen and (max-width:550px) {
+    .cards {
+        width: 90%!important;
+        height: 305px!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+}
+@media screen and (max-width:440px) {
+    .cards {
+        height: 270px!important;
+    }
+}

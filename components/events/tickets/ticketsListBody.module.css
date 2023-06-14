@@ -1,0 +1,83 @@
+.ticketsListBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+.listHeight {
+    width: 100%;
+    height: 500px;
+    overflow: scroll;
+}
+.TicketsListHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ticketsItem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.dFlexColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.width100 {
+    width: 100%;
+    padding: 15px 20px 12px 20px;
+}
+.borderBottom {
+    border-bottom: 1px solid #d5d5d5;
+    width: 100%;
+}
+.lowestTitle {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 40px;
+}
+.sectionTitle {
+    font-size: 15px;
+    font-weight: 700;
+    color: #58A4B0;
+    margin: 0 40px;
+}
+.ListHeaderborder {
+    border-bottom: 3px solid #ebebeb;
+    margin-top: 10px;;
+    margin-top: 10px;
+}
+.activeBorder {
+    border-bottom: 3px solid #58A4B0;
+    margin-top: 10px;
+}
+.left, .right {
+    width: 50%;
+    margin-top: 15px;
+}
+.listSec {
+    font-size: 14px;
+    font-weight: 700;
+}
+.price {
+    font-size: 14px;
+    font-weight: 700;
+    color: #58A4B0;
+}
+.comoment {
+    font-weight: 500;
+    font-size: 14px;
+    color: #A9BCD0;
+    margin-top: 5px;
+}

@@ -1,0 +1,132 @@
+.footer {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4% 14% 0 14%;
+}
+.footerBg {
+    background-color: #373F51;
+}
+.footerItemField {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 3rem !important;
+}
+.footerItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 22%;
+}
+.footerTitlefield {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.footerTitle {
+    color: #DAA49A;
+    font-size: 15px;
+}
+.footerTitleLine {
+    width: 50px!important;
+    height: 2px!important;
+    margin-bottom: 10px;
+}
+.footerTextItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+.footerTextIcon {
+    width: 10px;
+    height: 8px;
+    margin-right: 3px;
+}
+.footerText {
+    color: white;
+    font-size: 13px;
+}
+.ourAppIcon {
+    width: 13px!important;
+    height: 13px!important;
+    margin-left: 15px;
+    margin-top: -2px;
+    cursor: pointer;
+}
+.divider {
+    margin-top: 3rem !important;
+}
+.footerLogoField {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 17%;
+}
+.logoImg {
+    width: 200px;
+    cursor: pointer;
+}
+.socialIconField {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socialIcon {
+    width: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.footerBottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem !important;
+}
+.footerBottomText {
+    color: white;
+    font-size: 13px;
+}
+.dFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.borderVertical {
+    width: 1px!important;
+    height: 15px!important;
+    margin: 0 10px;
+}
+.flagIcon {
+    width: 15px!important;
+    height: 8px!important;
+    margin-right: 5px;
+}
+@media screen and (max-width: 1130px) {
+    .footerItem {
+        width: 45%;
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width:832px) {
+    .footerBottom {
+        justify-content: center!important;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 450px) {
+    .footerItem {
+        width: 90%;
+    }
+    .footerItemField {
+        justify-content: center!important;
+    }
+    .footerBottomText {
+        color: white;
+        font-size: 11px;
+    }
+}

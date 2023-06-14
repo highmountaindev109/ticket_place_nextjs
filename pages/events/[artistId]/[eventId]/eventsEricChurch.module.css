@@ -1,0 +1,26 @@
+.ericChurch {
+    padding: 20px 12%;
+}
+.ericChurchTitle {
+    font-size: 14.5px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.followText {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.socialIcon {
+    margin-top: 10px;
+}
+.socialIconImg {
+    width: 35px;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 420px) {
+    .ericChurch {
+        padding: 0 5%;
+    }
+}

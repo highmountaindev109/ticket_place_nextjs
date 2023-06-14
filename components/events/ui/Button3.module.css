@@ -1,0 +1,32 @@
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  font: inherit;
+  background-color: transparent;
+  color: white;
+  border: 6px solid white;
+  border-radius: 40px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover,
+.btn:active {
+  color: white!important;
+  background-color: #559aa5;
+  border-color: transparent;
+}
+
+.lnk {
+  text-decoration: none;
+  border-radius: 40px;
+  font: inherit;
+  padding: 0.5rem 1rem;
+  border: 1px solid white;
+  color: white;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+.lik:hover {
+  color: white!important;
+}

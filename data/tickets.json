@@ -1,0 +1,14 @@
+[
+
+    { "event": {"id": "ayayay", "artist": {"id": "nodal" } }, "zone":  {"id": "BRRR", "name": "BARRERA SOMBRA"}, "row":  1, "seats": { "from":  1, "to":  147, "count":  147 }, "price": { "value":  1500, "currency": "USD" } },
+    { "event": {"id": "ayayay", "artist": {"id": "nodal" } }, "zone":  {"id": "BRRR", "name": "BARRERA SOMBRA"}, "row":  2, "seats": { "from":  62, "to":  112, "count":  51 }, "price": { "value":  1000, "currency": "USD" } },
+    { "event": {"id": "ayayay", "artist": {"id": "nodal" } }, "zone":  {"id": "BRRR", "name": "BARRERA SOMBRA"}, "row":  3, "seats": { "from":  64, "to":  115, "count":  52 }, "price": { "value":  1000, "currency": "USD" } },
+    { "event": {"id": "ayayay", "artist": {"id": "nodal" } }, "zone":  {"id": "BRRR", "name": "BARRERA SOMBRA"}, "row":  4, "seats": { "from":  66, "to":  119, "count":  54 }, "price": { "value":  1000, "currency": "USD" } },
+    { "event": {"id": "ayayay", "artist": {"id": "nodal" } }, "zone":  {"id": "TND1", "name": "1ER TENDIDO"}, "row":  1, "seats": { "from":  61, "to":  116, "count":  56 }, "price": { "value":  800, "currency": "USD" } },
+    { "event": {"id": "ayayay", "artist": {"id": "nodal" } }, "zone":  {"id": "TND1", "name": "2do TENDIDO"}, "row":  2, "seats": { "from":  63, "to":  121, "count":  59 }, "price": { "value":  750, "currency": "USD" } },
+    { "event": {"id": "ayayay", "artist": {"id": "nodal" } }, "zone":  {"id": "TND1", "name": "3er TENDIDO"}, "row":  3, "seats": { "from":  65, "to":  124, "count":  60 }, "price": { "value":  750, "currency": "USD" } },
+    { "event": {"id": "ayayay", "artist": {"id": "nodal" } }, "zone":  {"id": "TND1", "name": "4to TENDIDO"}, "row":  4, "seats": { "from":  67, "to":  128, "count":  62 }, "price": { "value":  750, "currency": "USD" } },
+    { "event": {"id": "ayayay", "artist": {"id": "nodal" } }, "zone":  {"id": "TND1", "name": "5to TENDIDO"}, "row":  5, "seats": { "from":  78, "to":  141, "count":  64 }, "price": { "value":  750, "currency": "USD" } },
+    { "event": {"id": "ayayay", "artist": {"id": "nodal" } }, "zone":  {"id": "TND1", "name": "6to TENDIDO"}, "row":  6, "seats": { "from":  79, "to":  193, "count":  115 }, "price": { "value":  750, "currency": "USD" } }
+  
+]
