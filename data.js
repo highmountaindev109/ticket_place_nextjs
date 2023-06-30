@@ -10,7 +10,7 @@ const events = [
     rate: '4.7',
   },
   {
-    id: 'papi',
+    id: 'papi',            
     featured: true,
     title: 'Eric Church Brings Double',
     text: "The Gather Again tour is stopping in your city. See him live in concert!",
