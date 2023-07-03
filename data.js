@@ -14,7 +14,7 @@ const events = [
     featured: true,
     title: 'Eric Church Brings Double',
     text: "The Gather Again tour is stopping in your city. See him live in concert!",
-    artist: { id: 'maluma', name: 'Maluma' },
+    artist: { id: 'maluma', name: 'Maluma' },            
     bigImage: '/images/Group 132.png',
     bigImageHasTitle: true,
     rate: '5',
