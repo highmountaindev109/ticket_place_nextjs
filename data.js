@@ -8,7 +8,7 @@ const events = [
     priceRange: { min: 10, max: 2000 },
     bigImage: '/images/Homepage1/Group 89.png',
     rate: '4.7',
-  },
+  },   
   {
     id: 'papi',            
     featured: true,
