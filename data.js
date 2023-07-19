@@ -7,7 +7,7 @@ const events = [
     artist: { id: 'nodal', name: 'Christian Nodal' },
     priceRange: { min: 10, max: 2000 },
     bigImage: '/images/Homepage1/Group 89.png',
-    rate: '4.7',
+    rate: '4.7',        
   },   
   {
     id: 'papi',            
